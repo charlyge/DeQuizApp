@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.android.dequizapp">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Category" />
+        <activity android:name=".Science" />
+        <activity android:name=".Science2" />
+        <activity android:name=".Science3" />
+        <activity android:name=".Science4" />
+        <activity android:name=".Science5" />
+        <activity android:name=".Science6" />
+        <activity android:name=".Science7" />
+        <activity android:name=".Science8" />
+        <activity android:name=".Science9" />
+        <activity android:name=".Science10"></activity>
+    </application>
+
+</manifest>
