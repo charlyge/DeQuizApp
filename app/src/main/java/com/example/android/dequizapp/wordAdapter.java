@@ -1,9 +1,7 @@
 package com.example.android.dequizapp;
 
 import android.app.Activity;
-import android.content.Context;
 import android.support.annotation.NonNull;
-import android.support.annotation.Nullable;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -34,7 +32,7 @@ public class wordAdapter extends ArrayAdapter<word> {
 
         if(ListItemView==null){
 
-            ListItemView = LayoutInflater.from(getContext()).inflate(R.layout.activity_science,parent,false);
+            ListItemView = LayoutInflater.from(getContext()).inflate(R.layout.activity1,parent,false);
         }
      word currentWord = getItem(position);
 

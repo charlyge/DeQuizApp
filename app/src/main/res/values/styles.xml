@@ -8,4 +8,23 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+    <style name="Quiz_Theme">
+    <item name="android:textColor">#E65</item>
+      <item name="android:textSize">25sp</item>
+        <item name="android:layout_height">60dp</item>
+        <item name="android:layout_width">300dp</item>
+
+</style>
+
+    <style name="Radio_Theme">
+        <item name="android:textColor">#EEEEEE</item>
+        <item name="android:textSize">25sp</item>
+        <item name="android:background">#009688</item>
+        <item name="android:layout_height">60dp</item>
+        <item name="android:layout_marginBottom"> 10dp</item>
+        <item name="android:layout_width">300dp</item>
+        <item name="android:textStyle">bold</item>
+
+    </style>
+
 </resources>

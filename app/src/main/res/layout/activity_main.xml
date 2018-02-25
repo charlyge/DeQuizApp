@@ -1,4 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFF59D"
+    >
 <LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
@@ -13,9 +19,9 @@
 
     <TextView
         android:id="@+id/nameid"
-        android:layout_height="wrap_content"
+        android:layout_height="40dp"
         android:layout_width="match_parent"
-        android:text="@string/hello_enter_your_name"
+        android:text="@string/welcome"
         android:textSize="@dimen/top_text"
         android:textColor="#E65"
         android:paddingLeft="80dp"
@@ -23,6 +29,7 @@
         android:layout_marginTop="20dp"
         />
     <EditText
+        android:id="@+id/editField"
         android:layout_height="wrap_content"
         android:layout_width="match_parent"
         android:hint="@string/enter_your_name_here"
@@ -33,25 +40,26 @@
         android:textColorHint="#FB8C00"
         />
 
-    <TextView
-        android:id="@+id/picid"
-        android:layout_height="wrap_content"
-        android:layout_width="wrap_content"
-        android:text="@string/select_picture"
-        android:layout_marginLeft="100dp"
-        android:layout_marginStart="100dp"
-        android:textSize="@dimen/top_text"
-        android:textColor="#EF6C00"
-        android:layout_marginTop="20dp"
-        />
+
 
     <ImageView
+
+        android:id="@+id/upload"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:src="@drawable/upload"
-        android:layout_marginLeft="50dp"
-        android:layout_marginStart="50dp"
+        android:layout_height="200dp"
         android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:src="@drawable/upload"
+        />
+    <Button
+        android:id="@+id/buttonUpload"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center"
+        android:text="Upload picture"
+        android:layout_marginTop="20dp"
+        android:background="#FF9100"
+
         />
 
     <Button
@@ -59,9 +67,10 @@
         android:layout_height="wrap_content"
         android:layout_width="wrap_content"
         android:text="@string/start"
-        android:layout_marginLeft="150dp"
+        android:layout_gravity="center"
         android:layout_marginTop="20dp"
         android:background="#FF9100"
         />
 
 </LinearLayout>
+</ScrollView>
